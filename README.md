@@ -2,7 +2,6 @@
 
 A real-time AI meeting assistant that listens to your microphone, transcribes speech, surfaces contextual suggestions, and provides detailed answers — all powered by [Groq](https://groq.com).
 
-![TwinMind Screenshot](docs/screenshot.png)
 
 ## 🚀 Live Demo
 
