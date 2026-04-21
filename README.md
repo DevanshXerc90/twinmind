@@ -5,7 +5,7 @@ A real-time AI meeting assistant that listens to your microphone, transcribes sp
 
 ## 🚀 Live Demo
 
-**Deployed URL:** _(add your deployment URL here)_
+**Deployed URL:** [https://twinmind-iota.vercel.app/]
 
 ## ✨ Features
 
