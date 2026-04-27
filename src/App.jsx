@@ -22,7 +22,7 @@ export default function App() {
   const [apiKey, setApiKey] = useState(() => localStorage.getItem('groq_api_key') || '');
   const [settings, setSettings] = useState(() => {
     try {
-      const saved = localStorage.getItem('twinmind_settings');
+      const saved = localStorage.getItem('meetly_ai_settings');
       return saved ? { ...DEFAULT_SETTINGS, ...JSON.parse(saved) } : { ...DEFAULT_SETTINGS };
     } catch {
       return { ...DEFAULT_SETTINGS };
@@ -260,7 +260,7 @@ export default function App() {
     apiKeyRef.current = newKey;
     settingsRef.current = newSettings;
     localStorage.setItem('groq_api_key', newKey);
-    localStorage.setItem('twinmind_settings', JSON.stringify(newSettings));
+    localStorage.setItem('meetly_ai_settings', JSON.stringify(newSettings));
   }, []);
 
   /* ---- Export ---- */
@@ -276,7 +276,7 @@ export default function App() {
   const hasData = transcript.length > 0 || suggestionBatches.length > 0 || chatMessages.length > 0;
 
   return (
-    <div className="app" id="twinmind-app">
+    <div className="app" id="meetly-ai-app">
       <Header
         onOpenSettings={() => setShowSettings(true)}
         onExport={handleExport}

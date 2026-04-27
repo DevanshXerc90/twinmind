@@ -32,7 +32,7 @@ export default function ChatPanel({ chatMessages, onSendMessage, isStreaming }) 
     <section className="panel chat-panel" id="chat-panel">
       <div className="panel-header">
         <h2 className="panel-title">
-          <span className="panel-number">3.</span> Chat (Detailed Answers)
+          <span className="panel-number">3.</span> Chat
         </h2>
         <span className="status-badge status-idle">Session Only</span>
       </div>

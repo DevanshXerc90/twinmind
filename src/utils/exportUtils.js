@@ -34,7 +34,7 @@ export function exportSession({ transcript, suggestionBatches, chatMessages, ses
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `twinmind-session-${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
+  a.download = `meetly-ai-session-${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);

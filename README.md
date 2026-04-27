@@ -1,11 +1,11 @@
-# TwinMind — Live AI Meeting Copilot
+# Meetly AI — Live AI Meeting Copilot
 
 A real-time AI meeting assistant that listens to your microphone, transcribes speech, surfaces contextual suggestions, and provides detailed answers — all powered by [Groq](https://groq.com).
 
 
 ## 🚀 Live Demo
 
-**Deployed URL:** [https://twinmind-iota.vercel.app/]
+**Deployed URL:** [https://meetly-ai-iota.vercel.app/]
 
 ## ✨ Features
 
@@ -30,8 +30,8 @@ A real-time AI meeting assistant that listens to your microphone, transcribes sp
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/twinmind.git
-cd twinmind
+git clone https://github.com/YOUR_USERNAME/meetly-ai.git
+cd meetly-ai
 
 # Install
 npm install

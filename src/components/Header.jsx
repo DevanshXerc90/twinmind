@@ -6,7 +6,7 @@ export default function Header({ onOpenSettings, onExport, hasData }) {
       <div className="header-left">
         <div className="header-logo">
           <span className="logo-icon">🧠</span>
-          <h1 className="logo-text">TwinMind</h1>
+          <h1 className="logo-text">Meetly AI</h1>
         </div>
         <span className="header-tagline">AI Meeting Copilot</span>
       </div>

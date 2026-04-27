@@ -13,7 +13,7 @@ export default function ChatMessage({ message }) {
     <div className={`chat-message ${isUser ? 'chat-message-user' : 'chat-message-assistant'}`}>
       <div className="chat-message-meta">
         <span className="chat-message-role">
-          {isUser ? '🧑 You' : '🤖 TwinMind'}
+          {isUser ? '🧑 You' : '🤖 Meetly AI'}
         </span>
         <span className="chat-message-time">{message.timestamp}</span>
       </div>
